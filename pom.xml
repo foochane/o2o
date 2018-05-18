@@ -21,6 +21,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+      <scope>test</scope>
       <version>4.12</version>
     </dependency>
 
@@ -123,6 +124,7 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
+      <scope>test</scope>
     </dependency>
 
     <!-- redis客户端:Jedis -->
