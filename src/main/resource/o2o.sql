@@ -2,7 +2,6 @@ create database `o2o`;
 
 USE o2o;
 
-
 CREATE TABLE `tb_area`(
 `area_id` INT(2) NOT NULL AUTO_INCREMENT,
 `area_name` VARCHAR(200) NOT NULL,
@@ -12,7 +11,6 @@ CREATE TABLE `tb_area`(
 PRIMARY KEY(`area_id`),
 UNIQUE KEY `UK_AREA`(`area_name`)
 )ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
-
 
 
 CREATE TABLE `tb_person_info`(
@@ -53,7 +51,6 @@ CREATE TABLE `tb_local_auth`(
 
 # 增加tb_wechat_auth 的唯一索引
 ALTER  TABLE tb_wechat_auth ADD UNIQUE INDEX(`open_id`);
-
 
 
 CREATE TABLE `tb_haed_line`(
