@@ -1,4 +1,4 @@
-package com.chane.o2o.entity;
+package com.chane.entity;
 
 import java.io.Serializable;
 import java.util.Date;

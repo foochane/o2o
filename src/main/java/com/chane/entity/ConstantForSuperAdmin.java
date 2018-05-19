@@ -1,4 +1,4 @@
-package com.chane.o2o.entity;
+package com.chane.entity;
 
 public class ConstantForSuperAdmin {
 	public static final String PAGE_SIZE = "rows";
