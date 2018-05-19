@@ -10,7 +10,8 @@ public enum ShopStateEnum {
     SUCCESS(1,"操作成功"),
     PASS(2,"通过认证"),
     INNER_ERROR(-1001,"系统内部错误"),
-    NULL_SHOP_ID(-1002,"shopId为空")
+    NULL_SHOP_ID(-1002,"shopId为空"),
+    NULL_SHOP(-1003,"shop信息为空")
     ;
 
     private int state;
