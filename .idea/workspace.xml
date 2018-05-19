@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfffc4c-6f12-4fa4-8e5a-84bd3450b6a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/exception/ShopOperationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/chane/service/ShopServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/enums/ShopStateEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/enums/ShopStateEnum.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1418,7 +1413,7 @@
       <option name="presentableId" value="Default" />
       <updated>1526655507911</updated>
       <workItem from="1526655514446" duration="5271000" />
-      <workItem from="1526689421206" duration="23113000" />
+      <workItem from="1526689421206" duration="23141000" />
     </task>
     <task id="LOCAL-00001" summary="maven工程创建">
       <created>1526656755765</created>
@@ -1476,7 +1471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526733535676</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" Dto之ShopExecution的实现">
+      <created>1526738603208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526738603208</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1512,7 +1514,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28384000" />
+    <option name="totallyTimeSpent" value="28412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
