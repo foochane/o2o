@@ -18,6 +18,10 @@ public class PersonInfo {
 	private Date lastEditTime;
 	private Integer enableStatus;
 
+	private Integer userType; //1：顾客，2：店家，3：超级管理员
+
+
+
 	public Long getUserId() {
 		return userId;
 	}
@@ -122,4 +126,11 @@ public class PersonInfo {
 		this.enableStatus = enableStatus;
 	}
 
+	public Integer getUserType() {
+		return userType;
+	}
+
+	public void setUserType(Integer userType) {
+		this.userType = userType;
+	}
 }
