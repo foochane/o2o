@@ -24,7 +24,7 @@ public class ShopDaoTest extends BaseTest{
     @Ignore
     public void testInsertShop(){
         Shop shop = new Shop();
-        shop.setOwnerId(1L);
+        //shop.setOwnerId(1L);
         Area area = new Area();
         area.setAreaId(1L);
         ShopCategory sc = new ShopCategory();

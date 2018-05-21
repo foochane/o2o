@@ -29,7 +29,7 @@ public class ShopServiceTest extends BaseTest{
         area.setAreaId(1L);
         ShopCategory sc = new ShopCategory();
         sc.setShopCategoryId(1L);
-        shop.setOwnerId(1L);
+        //shop.setOwnerId(1L);
         shop.setShopName("mytest1");
 		shop.setShopDesc("mytest1");
 		shop.setShopAddr("testaddr1");
