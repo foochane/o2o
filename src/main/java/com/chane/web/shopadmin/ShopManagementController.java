@@ -1,9 +1,13 @@
 package com.chane.web.shopadmin;
 
 import com.chane.dto.ShopExecution;
+import com.chane.entity.Area;
 import com.chane.entity.PersonInfo;
 import com.chane.entity.Shop;
+import com.chane.entity.ShopCategory;
 import com.chane.enums.ShopStateEnum;
+import com.chane.service.AreaService;
+import com.chane.service.ShopCategoryService;
 import com.chane.service.ShopService;
 import com.chane.util.FileUtil;
 import com.chane.util.HttpServletRequestUtil;
@@ -23,7 +27,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -31,11 +37,35 @@ import java.util.Map;
  */
 
 @Controller
-@RequestMapping("/shop")
+@RequestMapping("/shopadmin")
 public class ShopManagementController {
 
     @Autowired
     private ShopService ShopService;
+    @Autowired
+    private ShopCategoryService shopCategoryService;
+    @Autowired
+    private AreaService areaService;
+
+    @RequestMapping(value = "/getshopinitinfo", method = RequestMethod.GET)
+    @ResponseBody
+    private Map<String, Object> getShopInitInfo() {
+        Map<String, Object> modelMap = new HashMap<String, Object>();
+        List<ShopCategory> shopCategoryList = new ArrayList<ShopCategory>();
+        List<Area> areaList = new ArrayList<Area>();
+        try {
+            shopCategoryList = shopCategoryService
+                    .getShopCategoryList(new ShopCategory());
+            areaList = areaService.queryArea();
+        } catch (Exception e) {
+            modelMap.put("success", false);
+            modelMap.put("errMsg", e.toString());
+        }
+        modelMap.put("shopCategoryList", shopCategoryList);
+        modelMap.put("areaList", areaList);
+        modelMap.put("success", true);
+        return modelMap;
+    }
 
     @RequestMapping(value = "/registershop", method = RequestMethod.POST)
     @ResponseBody
