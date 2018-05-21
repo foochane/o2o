@@ -10,6 +10,8 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.Date;
 
 import static org.junit.Assert.assertEquals;
@@ -41,7 +43,8 @@ public class ShopServiceTest extends BaseTest{
 		shop.setArea(area);
 		shop.setShopCategory(sc);
 		File shopImg = new File("D:\\code\\springboot\\o2o\\image\\watermark\\xiaoxiang.jpg");
-		ShopExecution se = shopService.addShop(shop,shopImg);
+		InputStream is = new FileInputStream(shopImg);
+		ShopExecution se = shopService.addShop(shop,is,shopImg.getName());
 		assertEquals(ShopStateEnum.CHECK.getState(), se.getState());
 	}
 }
