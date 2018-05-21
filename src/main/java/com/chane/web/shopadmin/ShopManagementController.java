@@ -9,6 +9,7 @@ import com.chane.enums.ShopStateEnum;
 import com.chane.service.AreaService;
 import com.chane.service.ShopCategoryService;
 import com.chane.service.ShopService;
+import com.chane.util.CodeUtil;
 import com.chane.util.HttpServletRequestUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,6 +68,11 @@ public class ShopManagementController {
     @ResponseBody
     public Map<String, Object> registerShop(HttpServletRequest request) {
         Map<String, Object> modelMap = new HashMap<>();
+        if(!CodeUtil.checkVerifyCode(request)){
+            modelMap.put("success",false);
+            modelMap.put("errMsg","输入了错误的验证码");
+            return modelMap;
+        }
         // 1、接受并转化相应参数，包括店铺信息及图片信息
         String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
         // 使用jackson-databind-->https://github.com/FasterXML/jackson-databind
