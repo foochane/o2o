@@ -6,6 +6,8 @@ import com.chane.entity.Shop;
 import com.chane.entity.ShopCategory;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
@@ -19,6 +21,17 @@ public class ShopDaoTest extends BaseTest{
 
     @Autowired
     private ShopDao shopDao;
+     Logger logger = LoggerFactory.getLogger(ShopDaoTest.class);
+
+    @Test
+    public void testQueryByShopId(){
+        long shopId = 1;
+        Shop shop = shopDao.queryByShopId(shopId);
+//        System.out.println("areaId"+shop.getArea().getAreaId());
+//        System.out.println("areaName"+shop.getArea().getAreaName());
+        logger.info("areaId:{}",shop.getArea().getAreaId());
+        logger.info("areaName:{}",shop.getArea().getAreaName());
+    }
 
     @Test
     @Ignore
@@ -47,6 +60,7 @@ public class ShopDaoTest extends BaseTest{
     }
 
     @Test
+    @Ignore
     public void testDUpdateShop() {
 
         Shop shop = new Shop();
