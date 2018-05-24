@@ -35,7 +35,7 @@ import java.util.Map;
  */
 
 @Controller
-@RequestMapping("/shopadmin")
+@RequestMapping("/shopadmin/shopadmin")
 public class ShopManagementController {
 
     @Autowired
