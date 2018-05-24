@@ -11,6 +11,7 @@ import com.chane.service.ShopCategoryService;
 import com.chane.service.ShopService;
 import com.chane.util.CodeUtil;
 import com.chane.util.HttpServletRequestUtil;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -77,6 +78,7 @@ public class ShopManagementController {
         String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
         // 使用jackson-databind-->https://github.com/FasterXML/jackson-databind
         ObjectMapper mapper = new ObjectMapper(); // create once, reuse（创建一次，可重用）
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         Shop shop = null;
         try {
             shop = mapper.readValue(shopStr, Shop.class);
@@ -104,7 +106,9 @@ public class ShopManagementController {
             PersonInfo owner = new PersonInfo();
             //Session TODO
             owner.setUserId(1L);
+
             shop.setOwner(owner);
+            shop.setOwnerId(1L);
             ShopExecution se = null;
             try {
                 se = ShopService.addShop(shop, shopImg.getInputStream(),shopImg.getOriginalFilename());

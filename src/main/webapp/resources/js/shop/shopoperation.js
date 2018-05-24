@@ -27,19 +27,19 @@ $(function () {
 
 
         $('#submit').click(function () {
-            var chop = {};
+            var shop = {};
             shop.shopName = $('#shop-name').val();
             shop.shopAddr = $('#shop-addr').val();
             shop.phone = $('#shop-phone').val();
             shop.shopDesc = $('#shop-desc').val();
             shop.shopCategory = {
                 shopCategoryId : $('#shop-category').find('option').not(function () {
-                    return !this.select;
+                    return !this.selected;
                 }).data('id')
             };
             shop.area = {
                 area : $('#area').find('option').not(function () {
-                    return !this.select;
+                    return !this.selected;
                 }).data('id')
             };
             var shopImg = $('#shop-img')[0].files[0];
@@ -57,7 +57,7 @@ $(function () {
                 type : 'POST',
                 data : formData,
                 contentType :false,
-                procceesData : false,
+                processData : false,
                 cache : false,
                 success: function (data) {
                     if(data.success){

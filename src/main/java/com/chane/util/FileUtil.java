@@ -15,9 +15,9 @@ public class FileUtil {
 		String os = System.getProperty("os.name");
 		String basePath = "";
 		if (os.toLowerCase().startsWith("win")) {
-			basePath = "D:/projectdev/image/";
+			basePath = "D:/code/springboot/o2o/image";
 		} else {
-			basePath = "/home/xiangzepro/";
+			basePath = "/home/fc/";
 		}
 		basePath = basePath.replace("/", seperator);
 		return basePath;
