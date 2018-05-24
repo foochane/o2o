@@ -39,8 +39,6 @@ public class ImageUtil {
 		return relativeAddr;
 	}
 
-
-
 	private static void makeDirPath(String targetAddr) {
 		String realFileParentPath = FileUtil.getImgBasePath() + targetAddr;
 		File dirPath = new File(realFileParentPath);
@@ -51,5 +49,22 @@ public class ImageUtil {
 
 	private static String getFileExtension(String fileName) {
 		return fileName.substring(fileName.lastIndexOf("."));
+	}
+
+	/**
+	 * storePath是文件的路径和目录的路径
+	 * @param storePath
+	 */
+    public static void deleteFileOrPath(String storePath){
+		File fileOrPath = new File(PathUtil.getImgBasePath()+storePath);
+		if(fileOrPath.exists()){
+			if(fileOrPath.isDirectory()){
+				File files[] = fileOrPath.listFiles();
+				for(int i = 0;i<files.length;i++){
+					files[i].delete();
+				}
+			}
+			fileOrPath.delete();
+		}
 	}
 }
