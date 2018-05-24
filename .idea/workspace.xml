@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dfffc4c-6f12-4fa4-8e5a-84bd3450b6a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/util/PageCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,32 +23,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShopService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java">
+      <file leaf-file-name="ShopManagementController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/util/PageCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+              <folding>
+                <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" expanded="false" />
+                <element signature="e#11002#11075#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chane/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/AreaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" />
@@ -143,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/util/PageCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java" />
       </list>
     </option>
   </component>
@@ -167,10 +148,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="431" />
-    <option name="y" value="73" />
-    <option name="width" value="1125" />
-    <option name="height" value="705" />
+    <option name="x" value="246" />
+    <option name="y" value="225" />
+    <option name="width" value="962" />
+    <option name="height" value="608" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1581,7 +1562,7 @@
       <workItem from="1526655514446" duration="5271000" />
       <workItem from="1526689421206" duration="23931000" />
       <workItem from="1526861398787" duration="23319000" />
-      <workItem from="1527121437030" duration="13977000" />
+      <workItem from="1527121437030" duration="15762000" />
     </task>
     <task id="LOCAL-00001" summary="maven工程创建">
       <created>1526656755765</created>
@@ -1730,7 +1711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527156491169</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" 店铺列表展示之Service层的实现">
+      <created>1527166757332</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1527166757332</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1743,14 +1731,14 @@
     <history-entry file="ShopDaoTest_tesstQureyShopListAndCount - 2018.05.24 at 18h 05m 59s.xml">
       <configuration name="ShopDaoTest.tesstQureyShopListAndCount" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShopDaoTest_tesstQureyShopListAndCount - 2018.05.24 at 21h 15m 53s.xml">
+      <configuration name="ShopDaoTest.tesstQureyShopListAndCount" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ShopDaoTest_testDUpdateShop - 2018.05.24 at 08h 56m 15s.xml">
       <configuration name="ShopDaoTest.testDUpdateShop" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopDaoTest_testDUpdateShop - 2018.05.24 at 08h 57m 19s.xml">
       <configuration name="ShopDaoTest.testDUpdateShop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopDaoTest_testQueryByShopId - 2018.05.24 at 08h 54m 02s.xml">
-      <configuration name="ShopDaoTest.testQueryByShopId" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopDaoTest_testQueryByShopId - 2018.05.24 at 08h 57m 58s.xml">
       <configuration name="ShopDaoTest.testQueryByShopId" configurationId="JUnit" />
@@ -1766,10 +1754,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66498000" />
+    <option name="totallyTimeSpent" value="68283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="73" width="1125" height="705" extended-state="0" />
+    <frame x="246" y="225" width="962" height="608" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1792,10 +1780,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15873016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41914892" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4824166" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1834,7 +1822,8 @@
     <MESSAGE value=" 店铺信息编辑之Controller层实现" />
     <MESSAGE value=" 店铺信息编辑之前端实现" />
     <MESSAGE value=" 店铺列表展示之Dao层的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 店铺列表展示之Dao层的实现" />
+    <MESSAGE value=" 店铺列表展示之Service层的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 店铺列表展示之Service层的实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2240,17 +2229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" expanded="false" />
-            <element signature="e#9075#9148#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -2308,7 +2286,7 @@
         <state relative-caret-position="50">
           <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2343,6 +2321,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/util/PageCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/ShopService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -2351,19 +2345,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/util/PageCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ShopServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" expanded="false" />
+            <element signature="e#11002#11075#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
