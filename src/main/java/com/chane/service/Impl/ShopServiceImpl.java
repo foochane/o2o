@@ -7,6 +7,7 @@ import com.chane.enums.ShopStateEnum;
 import com.chane.exception.ShopOperationException;
 import com.chane.service.ShopService;
 import com.chane.util.ImageUtil;
+import com.chane.util.PageCalculator;
 import com.chane.util.PathUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.InputStream;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by fucheng on 2018/5/19.
@@ -22,6 +24,22 @@ import java.util.Date;
 public class ShopServiceImpl implements ShopService {
     @Autowired
     private ShopDao shopDao;
+
+    @Override
+    public ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize) {
+        int rowIndex = PageCalculator.calculateRowIndex(pageIndex, pageSize);
+        List<Shop> shopList = shopDao.queryShopList(shopCondition, rowIndex,
+                pageSize);
+        int count = shopDao.queryShopCount(shopCondition);
+        ShopExecution se = new ShopExecution();
+        if (shopList != null) {
+            se.setShopList(shopList);
+            se.setCount(count);
+        } else {
+            se.setState(ShopStateEnum.INNER_ERROR.getState());
+        }
+        return se;
+    }
 
     @Override
     public Shop getByShopId(long shopID) {
