@@ -35,7 +35,7 @@ import java.util.Map;
  */
 
 @Controller
-@RequestMapping("/shopadmin/shopadmin")
+@RequestMapping("/shop")
 public class ShopManagementController {
 
     @Autowired
@@ -186,6 +186,7 @@ public class ShopManagementController {
         }
         return modelMap;
     }
+
 
     @RequestMapping(value = "/getshopinitinfo", method = RequestMethod.GET)
     @ResponseBody

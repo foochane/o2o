@@ -5,10 +5,10 @@
 $(function () {
     var shopId = getQueryString("shopId");
     var isEdit = shopId ? true:false;
-    var initUrl = "shopadmin/getshopinitinfo";
-    var registerShopUrl = "shopadmin/registershop";
-    var shopInfoUrl = "shopadmin/getshopbyid?shopId="+shopId;
-    var editShopUrl = "shopadmin/modifyshop";
+    var initUrl = "/shop/getshopinitinfo";
+    var registerShopUrl = "/shop/registershop";
+    var shopInfoUrl = "/shop/getshopbyid?shopId="+shopId;
+    var editShopUrl = "/shop/modifyshop";
     alert(initUrl);
     if(!isEdit){
         getShopInitInfo();
