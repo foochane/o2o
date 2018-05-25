@@ -1,6 +1,8 @@
 package com.chane.service;
 
+import com.chane.dto.ProductCategoryExecution;
 import com.chane.entity.ProductCategory;
+import com.chane.exception.ProductCategoryOperationException;
 
 import java.util.List;
 
@@ -15,4 +17,13 @@ public interface ProductCategoryService {
      * @return
      */
     List<ProductCategory> getProductCategoryList(long shopId);
+
+    /**
+     *
+     * @param productCategoryList
+     * @return
+     * @throws ProductCategoryOperationException
+     */
+    ProductCategoryExecution batchAddProductCategory(
+            List<ProductCategory> productCategoryList) throws ProductCategoryOperationException;
 }
