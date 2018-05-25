@@ -2,7 +2,9 @@ package com.chane.dao;
 
 import com.chane.BaseTest;
 import com.chane.entity.ProductCategory;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by fucheng on 2018/5/25.
  */
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ProductCategoryDaoTest extends BaseTest{
 
     @Autowired
@@ -23,12 +26,7 @@ public class ProductCategoryDaoTest extends BaseTest{
 
     Logger logger = LoggerFactory.getLogger(ProductCategoryDaoTest.class);
 
-    @Test
-    public void testQueryByShopId()throws  Exception{
-        long shopId = 1;
-        List<ProductCategory> productCategoryList = productCategoryDao.queryProductCategoryList(shopId);
-        logger.info("自定义类别数：{}",productCategoryList.size());
-    }
+
 
     @Test
     public void testAInsertProductCategory() throws Exception {
@@ -48,6 +46,26 @@ public class ProductCategoryDaoTest extends BaseTest{
         int effectedNum = productCategoryDao
                 .batchInsertProductCategory(productCategoryList);
         assertEquals(2, effectedNum);
+    }
+
+    @Test
+    public void testBQueryByShopId()throws  Exception{
+        long shopId = 1;
+        List<ProductCategory> productCategoryList = productCategoryDao.queryProductCategoryList(shopId);
+        logger.info("自定义类别数：{}",productCategoryList.size());
+    }
+
+    @Test
+    public void testCDeleteProductCategory() throws Exception {
+        long shopId = 1;
+        List<ProductCategory> productCategoryList = productCategoryDao
+                .queryProductCategoryList(shopId);
+        int effectedNum = productCategoryDao.deleteProductCategory(
+                productCategoryList.get(0).getProductCategoryId(), shopId);
+        assertEquals(1, effectedNum);
+        effectedNum = productCategoryDao.deleteProductCategory(
+                productCategoryList.get(1).getProductCategoryId(), shopId);
+        assertEquals(1, effectedNum);
     }
 
 }

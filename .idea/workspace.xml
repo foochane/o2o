@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dfffc4c-6f12-4fa4-8e5a-84bd3450b6a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/dto/ProductCategoryExecution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chane/exception/ProductCategoryOperationException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ProductCategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ProductCategoryServiceImpl.java" />
@@ -30,96 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductCategoryDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ProductCategoryDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <marker date="1527209363838" expanded="true" signature="372:607" ph="SELECT produ... tb_product_category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategoryDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/chane/dao/ProductCategoryDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1510#1527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategoryOperationException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/exception/ProductCategoryOperationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopOperationException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/exception/ShopOperationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="60" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategoryExecution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/dto/ProductCategoryExecution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategoryDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCategoryStateEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/enums/ProductCategoryStateEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductCategoryService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/ProductCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="95" />
+            <state relative-caret-position="188">
+              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +43,8 @@
       <file leaf-file-name="ProductCategoryServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ProductCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="29" column="95" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="95" />
+            <state relative-caret-position="73">
+              <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,15 +52,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductCategoryManagementController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductCategoryManagementController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ProductCategoryManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="73" column="59" lean-forward="true" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="349">
+              <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2198#2214#0" expanded="true" />
+                <element signature="e#3667#3683#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productcategorymanagement.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1988">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,12 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/ProductCategoryDao.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/chane/dao/ProductCategoryDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/dto/ProductExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/dto/ProductCategoryExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/exception/ProductCategoryOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/ProductCategoryDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chane/dao/ProductCategoryDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/ProductCategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ProductCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ProductCategoryManagementController.java" />
@@ -268,10 +192,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="58" />
-    <option name="width" value="918" />
-    <option name="height" value="646" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1047,33 +971,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductCategoryDaoTest.testAInsertProductCategory">
-    <configuration default="false" name="ShopDaoTest.testQueryByShopId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chane.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="o2o" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chane.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.chane.dao.ShopDaoTest" />
-      <option name="METHOD_NAME" value="testQueryByShopId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="false" name="ShopDaoTest.tesstQureyShopList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1166,6 +1064,32 @@
       <option name="MAIN_CLASS_NAME" value="com.chane.dao.ProductCategoryDaoTest" />
       <option name="METHOD_NAME" value="testAInsertProductCategory" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductCategoryDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.chane.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="o2o" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.chane.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.chane.dao.ProductCategoryDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1702,19 +1626,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testQueryByShopId" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopListAndCount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testQueryByShopId" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testAInsertProductCategory" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopListAndCount" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testQueryByShopId" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testAInsertProductCategory" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testAInsertProductCategory" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testQueryByShopId" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopListAndCount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopList" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testQueryByShopId" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testAInsertProductCategory" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductCategoryDaoTest.testQueryByShopId" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopListAndCount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.tesstQureyShopList" />
       </list>
     </recent_temporary>
   </component>
@@ -1732,7 +1656,7 @@
       <workItem from="1526689421206" duration="23931000" />
       <workItem from="1526861398787" duration="23319000" />
       <workItem from="1527121437030" duration="28660000" />
-      <workItem from="1527208100766" duration="2521000" />
+      <workItem from="1527208100766" duration="4773000" />
     </task>
     <task id="LOCAL-00001" summary="maven工程创建">
       <created>1526656755765</created>
@@ -1916,21 +1840,28 @@
       <option name="project" value="LOCAL" />
       <updated>1527182011741</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" 商品类别批量添加后端开发">
+      <created>1527210650452</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1527210650452</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ProductCategoryDaoTest - 2018.05.25 at 09h 32m 45s.xml">
+      <configuration name="ProductCategoryDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest - 2018.05.25 at 09h 45m 09s.xml">
+      <configuration name="ProductCategoryDaoTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ProductCategoryDaoTest_testAInsertProductCategory - 2018.05.25 at 08h 51m 39s.xml">
       <configuration name="ProductCategoryDaoTest.testAInsertProductCategory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductCategoryDaoTest_testQueryByShopId - 2018.05.25 at 00h 12m 31s.xml">
-      <configuration name="ProductCategoryDaoTest.testQueryByShopId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductCategoryDaoTest_testQueryByShopId - 2018.05.25 at 00h 14m 04s.xml">
-      <configuration name="ProductCategoryDaoTest.testQueryByShopId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductCategoryDaoTest_testQueryByShopId - 2018.05.25 at 00h 14m 43s.xml">
-      <configuration name="ProductCategoryDaoTest.testQueryByShopId" configurationId="JUnit" />
+    <history-entry file="ProductCategoryDaoTest_testAInsertProductCategory - 2018.05.25 at 09h 16m 32s.xml">
+      <configuration name="ProductCategoryDaoTest.testAInsertProductCategory" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopDaoTest_tesstQureyShopList - 2018.05.24 at 18h 02m 27s.xml">
       <configuration name="ShopDaoTest.tesstQureyShopList" configurationId="JUnit" />
@@ -1952,10 +1883,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83702000" />
+    <option name="totallyTimeSpent" value="85954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="58" width="918" height="646" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1978,10 +1909,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2893701" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27557755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11054173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2000,7 +1931,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="maven工程创建" />
     <MESSAGE value="实体类设计与表创建" />
     <MESSAGE value="maven配置" />
     <MESSAGE value="SSM的各项配置" />
@@ -2025,7 +1955,8 @@
     <MESSAGE value="店铺列表展示前端开发" />
     <MESSAGE value="店铺管理页面的前端开发" />
     <MESSAGE value="商品类别列表展示从后到前" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品类别列表展示从后到前" />
+    <MESSAGE value=" 商品类别批量添加后端开发" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 商品类别批量添加后端开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2038,20 +1969,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/entity/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-            <element signature="e#3129#3130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/util/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -2230,25 +2147,25 @@
         <state relative-caret-position="184">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#903#904#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2289,17 +2206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" expanded="false" />
-            <element signature="e#10993#11066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/dto/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
@@ -2311,22 +2217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -2344,7 +2234,7 @@
         <state relative-caret-position="483">
           <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#443#444#0" expanded="false" />
             <element signature="e#486#487#0" expanded="false" />
             <element signature="e#556#557#0" expanded="false" />
@@ -2375,37 +2265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ProductCategoryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <marker date="1527209363838" expanded="true" signature="372:607" ph="SELECT produ... tb_product_category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/chane/dao/ProductCategoryDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1510#1527#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2457,10 +2316,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ShopManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" expanded="false" />
+            <element signature="e#10993#11066#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/dao/ProductCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chane/dao/ProductCategoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1369#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ProductCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <marker date="1527211590093" expanded="true" signature="372:607" ph="SELECT produ... tb_product_category" />
+            <marker date="1527211590093" expanded="true" signature="1211:1353" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/ShopCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/ProductCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="95" />
+        <state relative-caret-position="188">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2469,8 +2387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/service/Impl/ProductCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="29" column="95" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="95" />
+        <state relative-caret-position="73">
+          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2479,12 +2397,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chane/web/shopadmin/ProductCategoryManagementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="73" column="59" lean-forward="true" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state relative-caret-position="349">
+          <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2198#2214#0" expanded="true" />
+            <element signature="e#3667#3683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1988">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
