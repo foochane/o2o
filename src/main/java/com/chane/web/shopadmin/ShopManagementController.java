@@ -1,5 +1,6 @@
 package com.chane.web.shopadmin;
 
+import com.chane.dto.ImageHolder;
 import com.chane.dto.ShopExecution;
 import com.chane.entity.Area;
 import com.chane.entity.PersonInfo;
@@ -132,9 +133,10 @@ public class ShopManagementController {
             ShopExecution se ;
             try {
                 if(shopImg == null){
-                    se = ShopService.modifyShop(shop, null,null);
+                    se = ShopService.modifyShop(shop,null);
                 }else {
-                    se = ShopService.modifyShop(shop, shopImg.getInputStream(),shopImg.getOriginalFilename());
+                    ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                    se = ShopService.modifyShop(shop, imageHolder);
                 }
                 if (se.getState() == ShopStateEnum.SUCCESS.getState()) {
                     modelMap.put("success", true);
@@ -252,7 +254,8 @@ public class ShopManagementController {
             shop.setOwnerId(1L);
             ShopExecution se = null;
             try {
-                se = ShopService.addShop(shop, shopImg.getInputStream(),shopImg.getOriginalFilename());
+                ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                se = ShopService.addShop(shop, imageHolder);
                 if (se.getState() == ShopStateEnum.CHECK.getState()) {
                     modelMap.put("success", true);
                     //该用户可以操作的店铺列表

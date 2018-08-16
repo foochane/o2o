@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
+ * 解析路由并转发到相应的html
  * Created by fucheng on 2018/5/21.
  */
 @Controller
@@ -30,5 +31,11 @@ public class ShopAdminController {
     public String ProductCategoryManagement() {
         return "shop/productcategorymanagement";
     }
+
+    @RequestMapping(value="/productoperation")
+    public String ProductOperation() {
+        return "shop/productoperation";
+    }
+
 
 }

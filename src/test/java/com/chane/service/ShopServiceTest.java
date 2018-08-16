@@ -1,6 +1,7 @@
 package com.chane.service;
 
 import com.chane.BaseTest;
+import com.chane.dto.ImageHolder;
 import com.chane.dto.ShopExecution;
 import com.chane.entity.Area;
 import com.chane.entity.Shop;
@@ -44,7 +45,8 @@ public class ShopServiceTest extends BaseTest{
 		shop.setShopCategory(sc);
 		File shopImg = new File("D:\\code\\springboot\\o2o\\image\\watermark\\xiaoxiang.jpg");
 		InputStream is = new FileInputStream(shopImg);
-		ShopExecution se = shopService.addShop(shop,is,shopImg.getName());
+		ImageHolder imageHolder = new ImageHolder(shopImg.getName(),is);
+		ShopExecution se = shopService.addShop(shop,imageHolder);
 		assertEquals(ShopStateEnum.CHECK.getState(), se.getState());
 	}
 }

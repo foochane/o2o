@@ -1,5 +1,6 @@
 package com.chane.util;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -57,16 +58,16 @@ public class FileUtil {
 		return nowTimeStr + rannum;
 	}
 
-//	public static void deleteFile(String storePath) {
-//		File file = new File(getImgBasePath() + storePath);
-//		if (file.exists()) {
-//			if (file.isDirectory()) {
-//				File files[] = file.listFiles();
-//				for (int i = 0; i < files.length; i++) {
-//					files[i].delete();
-//				}
-//			}
-//			file.delete();
-//		}
-//	}
+	public static void deleteFile(String storePath) {
+		File file = new File(getImgBasePath() + storePath);
+		if (file.exists()) {
+			if (file.isDirectory()) {
+				File files[] = file.listFiles();
+				for (int i = 0; i < files.length; i++) {
+					files[i].delete();
+				}
+			}
+			file.delete();
+		}
+	}
 }
